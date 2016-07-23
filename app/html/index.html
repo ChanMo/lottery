@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block main %}
+<svg width="100%" height="100%" class="main">
+
+  {% for i in range(0,100) %}
+  <circle cx="0" cy="0" r="0" stroke="white" stroke-width="2" fill="yellow" data-name="陈" data-mobile="15550000000" />
+  {% endfor %}
+</svg>
+
+<div class="result-box">
+  <div class="result">
+    <div class="title">
+      <h1>中奖结果</h1>
+    </div>
+    <div class="content">
+    </div>
+  </div>
+</div>
+{% endblock %}
